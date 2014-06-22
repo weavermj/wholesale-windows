@@ -43,6 +43,13 @@
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
  }
+ #brochure-select {
+  padding-bottom: 20px !important;
+ }
+ #brochure-select input[type=checkbox] {
+  margin-left: 40px;
+  margin-top: 10px;
+ }
  -->
  </style>
  <script>
@@ -244,11 +251,21 @@ ga('send', 'pageview');
                       <input type="text" name="contact_email" id="contact_email" class="field" value="" tabindex="9" />
                     </p>
                     <p>&nbsp; </p>
-                    <p> 
-
-                      <label for="contact_url" class="left"></label>
-                    </p>
                   </fieldset>
+
+                  <fieldset id="brochure-select">
+                      <legend><span class="left">Which brochures would you like us to send?</span></legend>
+                      <input type="checkbox" name="brochure_windows" value="Windows"> Windows<br />
+                      <input type="checkbox" name="brochure_doors" value="Doors"> Doors<br />
+                      <input type="checkbox" name="brochure_conservatories" value="Conservatories"> Conservatories<br />
+                      <input type="checkbox" name="brochure_bifoldingdoors" value="Bi-Folding Doors"> Bi-Folding Doors<br />
+                      <input type="checkbox" name="brochure_porches" value="Porches"> Porches<br />
+                      <input type="checkbox" name="brochure_aluminium" value="Aluminium"> Aluminium<br />
+                      <input type="checkbox" name="brochure_pvc" value="PVC"> PVC<br />
+                      <input type="checkbox" name="brochure_rockdoor" value="Doors"> Rock Doors<br />
+                      <input type="checkbox" name="brochure_pvcdoor" value="Doors"> PVC Doors<br />
+                  </fieldset>
+
                   <fieldset>
                     <legend><span class="left">Fields marked with a * MUST be completed</span></legend>
                     <div class="button-wrapper">
