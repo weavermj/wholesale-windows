@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+		<button title="Conservatories" subtitle="Conservatories are an ideal way of enhancing your property." thumb="items/1.jpg" ProductTitle="Conservatories">
+		<picture thumb="thumbs/1.jpg" image="images/1.jpg" />
+		<picture thumb="thumbs/2.jpg" image="images/2.jpg" />
+		<picture thumb="thumbs/3.jpg" image="images/3.jpg" />
+		<picture thumb="thumbs/4.jpg" image="images/4.jpg" />
+		<picture thumb="thumbs/5.jpg" image="images/5.jpg" />
+		<picture thumb="thumbs/6.jpg" image="images/6.jpg" />
+		<picture thumb="thumbs/7.jpg" image="images/7.jpg" />
+		<picture thumb="thumbs/8.jpg" image="images/8.jpg" />
+		<picture thumb="thumbs/9.jpg" image="images/9.jpg" />
+		<picture thumb="thumbs/10.jpg" image="images/10.jpg" />
+		<picture thumb="thumbs/11.jpg" image="images/11.jpg" />
+		<picture thumb="thumbs/12.jpg" image="images/12.jpg" />
+		<picture thumb="thumbs/13.jpg" image="images/13.jpg" />
+		<picture thumb="thumbs/14.jpg" image="images/14.jpg" />
+		<picture thumb="thumbs/15.jpg" image="images/15.jpg" />
+		<picture thumb="thumbs/16.jpg" image="images/16.jpg" />
+		<picture thumb="thumbs/17.jpg" image="images/17.jpg" />
+		<picture thumb="thumbs/18.jpg" image="images/18.jpg" />
+
+		
+		<description><![CDATA[Conservatories are an ideal way of enhancing your property by adding extra living space or simply to provide you with a room in which to relax and enjoy the garden. As a company with years of experience, we will carefully design and construct your new conservatory to the highest standards using only the very finest materials. Every conservatory is individually built using The Definitive Collection frames for performance and extra strength as well as a unique roof system that will keep out the elements ensuring many years of pleasure. Our conservatories come in the following designs; Gable, Edwardian, Victorian, P shape, T shape as well as Lean-to. We also supply a range of popular sunrooms and can even design a bespoke conservatory catered to your individual taste and needs.
+ 
+ ]]></description>
+		
+		
+	</button>
+	<button title="Windows" subtitle="For many years we have been supplying and fitting high specification windows" thumb="items/w2.jpg" ProductTitle="Windows" >
+		<picture thumb="thumbs/w2.jpg" image="images/w2.jpg" />
+		<picture thumb="thumbs/w1.jpg" image="images/w1.jpg" />
+		<picture thumb="thumbs/w3.jpg" image="images/w3.jpg" />
+		<picture thumb="thumbs/w4.jpg" image="images/w4.jpg" />
+		<picture thumb="thumbs/w5.jpg" image="images/w5.jpg" />
+		<picture thumb="thumbs/w6.jpg" image="images/w6.jpg" />
+		<picture thumb="thumbs/w7.jpg" image="images/w7.jpg" />
+		<picture thumb="thumbs/w8.jpg" image="images/w8.jpg" />
+		<picture thumb="thumbs/w9.jpg" image="images/w9.jpg" />
+		<picture thumb="thumbs/w10.jpg" image="images/w10.jpg" />
+		<picture thumb="thumbs/w11.jpg" image="images/w11.jpg" />
+		<picture thumb="thumbs/w12.jpg" image="images/w12.jpg" />
+		<picture thumb="thumbs/w13.jpg" image="images/w13.jpg" />
+		<picture thumb="thumbs/w14.jpg" image="images/w14.jpg" />
+		
+		<description><![CDATA[For many years we have been supplying and fitting high specification windows, doors and conservatories. Priding ourselves on complete customer satisfaction, we are committed to providing you with a quality service that is second to none. The Definitive Collection has been designed to the highest of standards using Kömmerling, Europes finest PVC-u window systems. Pleasing to the eye and proven in strength and security, our windows and doors surpass all expectations and set the standard for others to follow. The Definitive Collection comprises a range of products which come with Secured By Design (SBD) as standard. SBD is endorsed by the Association of Chief Police Officers and has the backing of the Home Office Crime Reduction Unit. This scheme is only available to manufacturers accredited with Kitemark BS7950. 
+ ]]></description>
+	</button>
+	<button title="Doors" subtitle="Designed for maximum security and available in a wide range of styles" thumb="items/d3.jpg" ProductTitle="Doors">
+		<picture thumb="thumbs/d3.jpg" image="images/d3.jpg" />
+		<picture thumb="thumbs/d2.jpg" image="images/d2.jpg" />
+		<picture thumb="thumbs/d1.jpg" image="images/d1.jpg" />
+		<picture thumb="thumbs/d4.jpg" image="images/d4.jpg" />
+		<picture thumb="thumbs/d5.jpg" image="images/d5.jpg" />
+		<picture thumb="thumbs/d6.jpg" image="images/d6.jpg" />
+		<picture thumb="thumbs/d7.jpg" image="images/d7.jpg" />
+		<picture thumb="thumbs/d8.jpg" image="images/d8.jpg" />
+		<picture thumb="thumbs/d9.jpg" image="images/d9.jpg" />
+		<picture thumb="thumbs/d10.jpg" image="images/d10.jpg" />
+		
+		<description><![CDATA[ Designed for maximum security and available in a wide range of styles, from residential to sliding, you are sure to find a door that will enhance your property and provide you with complete peace of mind. We have developed a selection of doors, in various colours, through to a natural wood-look with all the 21st Century benefits of a low maintenance, high durability PVC-u door. Every door we supply is bespoke and designed to your specific requirements. We also offer different threshold options including standard, low PVC-u or aluminum. Our doors are accredited with the police-backed 'Secured By Design' initiative when fitted with a 'Vectis' lock an optional extra if you upgrade to our Definitive Safety Plus, which guarantees that your door exceeds the latest security and quality standards and more importantly delivers increased confidence to you, our customer.
+ ]]></description>
+</button>
+</gallery>
+
+<mainTitle MainTitle="Gallery"/>
+
+
+
