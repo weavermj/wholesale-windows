@@ -24,6 +24,11 @@ $msg = $msg . "<p>" . $contact_street . ", " . $contact_city . ", " . $contact_c
 $msg = $msg . "<p>Phone: " . $contact_phone . " <br />";
 $msg = $msg . "<p>Email: " . $contact_email . " </p>";
 
+$msg = $msg . "<strong>Please send the following brochures:</strong><br />";
+$msg = $msg . "<p><ul>";
+$msg = addBrochuresRequestedToMessage($msg);
+$msg = $msg . "</ul></p>";
+
 $msg = $msg . "<hr>";
 $msg = $msg . "<h3>Original Form Information</h2>";
 
@@ -37,6 +42,42 @@ $msg = $msg . "<strong>Postcode:</strong> " . $contact_postalcode . "<br /><br /
 $msg = $msg . "<strong>Phone:</strong> " . $contact_phone . "<br />" ;
 $msg = $msg . "<strong>Email Address:</strong> " . $contact_email . "<br /><br />" ;
 $msg = $msg . "<strong>Date Submitted:</strong> " . $date_sent . "<br /><br />" ;
+
+$msg = $msg . "<strong>Brochures requested:</strong><br />";
+
+$msg = $msg . "<ul>";
+$msg = addBrochuresRequestedToMessage($msg) . "</ul>";
+
+function addBrochuresRequestedToMessage($msg) {
+	if (isset($_POST['brochure_windows'])) {
+		$msg = $msg . "<li>Windows</li>";
+	}
+	if (isset($_POST['brochure_doors'])) {
+		$msg = $msg . "<li>Doors</li>";
+	}
+	if (isset($_POST['brochure_conservatories'])) {
+		$msg = $msg . "<li>Conservatories</li>";
+	}
+	if (isset($_POST['brochure_bifoldingdoors'])) {
+		$msg = $msg . "<li>Bi-Folding Doors</li>";
+	}
+	if (isset($_POST['brochure_porches'])) {
+		$msg = $msg . "<li>Porches</li>";
+	}
+	if (isset($_POST['brochure_aluminium'])) {
+		$msg = $msg . "<li>Aluminium</li>";
+	}
+	if (isset($_POST['brochure_pvc'])) {
+		$msg = $msg . "<li>PVC</li>";
+	}
+	if (isset($_POST['brochure_rockdoor'])) {
+		$msg = $msg . "<li>Rock Doors</li>";
+	}
+	if (isset($_POST['brochure_pvcdoor'])) {
+		$msg = $msg . "<li>PVC Doors</li>";
+	}
+	return $msg;
+}
 
 $mail = new PHPMailer();
 
@@ -62,7 +103,7 @@ $mail->WordWrap = 50;
 $mail->Send();
 
 $customer_msg = "Dear " . $contact_title . " " . $contact_familyname . ", <br /><br />";
-$customer_msg = $customer_msg . "Thank you for requesting a brochure from our team at Wholesale Windows. We have received your request and will post a brochure out to you shortly at the following address:<br /><br />";
+$customer_msg = $customer_msg . "Thank you for requesting a brochure from our team at Wholesale Windows. We have received your request and will post your selection of brochures out to you shortly at the following address:<br /><br />";
 $customer_msg = $customer_msg . $contact_street . "<br />";
 $customer_msg = $customer_msg . $contact_city . "<br />";
 $customer_msg = $customer_msg . $contact_county . "<br />";
