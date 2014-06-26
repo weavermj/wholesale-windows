@@ -1,32 +1,21 @@
 <?php 
 
 $title = 'Wholesale Windows - Windows, Doors and Conservatories in Wirral, Chester and Liverpool';
+$description = 'High Quality Windows, Doors, Conservatories and Orangeries in Wirral, Chester and Liverpool';
+$keywords = 'Double glazing, windows, doors, porches, conservatories, fensa, wirral, bromborough, cheshire, merseyside, chester, liverpool, fascias, gutters';
 
 include('./_partials/head.html');
-
 include('./_partials/layout_start.html');
 ?>
 
 <!-- Main Column -->
- <td width="495" valign="top" id="main_column">      
+<td width="495" valign="top" id="main_column">      
     <h1 class="heading">Welcome to Wholesale Windows - Quality Double Glazing on the Wirral</h1>
     <h2 class="subheading">The Company That Cares</h2>
     <p>
         At Wholesale Windows we supply and install High Quality Double Glazing, Windows, Doors, Porches and Conservatories at affordable prices to homeowners and trade customers across the North West and North Wales.
     </p>
-    <script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
-        <object id="myExperience" class="BrightcoveExperience">
-            <param name="bgcolor" value="#FFFFFF" />
-            <param name="width" value="492" />
-            <param name="height" value="325" />
-            <param name="playerID" value="652006421001" />
-            <param name="playerKey" value="AQ%2E%2E,AAAADJS2vyE%2E,JUcYmd0gu4U3ae4PeAfYTOQd1q6BY4RA" />
-            <param name="isVid" value="true" />
-            <param name="dynamicStreaming" value="true" />
-            <param name="@videoPlayer" value="644495487001" />
-            <param name="linkBaseURL" value="http://www.thebvc.co.uk/ebc/wholesalewindows" />
-        </object>
-    <script type="text/javascript">brightcove.createExperiences();</script>
+    <?php include('./_partials/brightcove_player.html'); ?>
 
     <p class="emphasis">
         You may have seen in the local newspapers recently that for the SECOND time, Wholesale Windows have been awarded the Excellence in Customer Service Award from Wirral Trading Standards, following the results of their customer feedback questionnaires.
