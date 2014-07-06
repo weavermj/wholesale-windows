@@ -99,3 +99,7 @@ a:visited {
 .link-image:hover .link-image__text {
 	text-decoration: underline;
 }
+
+.footer {
+	font-size: 10px;
+}
