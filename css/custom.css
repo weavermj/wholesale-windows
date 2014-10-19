@@ -104,6 +104,10 @@ a:visited {
 	text-decoration: underline;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .footer {
 	font-size: 10px;
 }
