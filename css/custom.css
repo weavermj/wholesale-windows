@@ -108,6 +108,10 @@ a:visited {
 	text-align: center;
 }
 
+.gap-bottom {
+	margin-bottom: 20px;
+}
+
 .footer {
 	font-size: 10px;
 }
