@@ -17,6 +17,28 @@ a:visited {
 	color: #004F85;
 }
 
+.header-middle {
+	position: relative;
+}
+
+.header-contact {
+	position: absolute;
+	left: 344px;
+	bottom: 37px;
+	border-radius: 10px;
+	padding: 10px;
+	background: #2c2c2c;
+}
+
+.header-contact .heading,
+.header-contact .subheading {
+	font-size: 130%;
+}
+
+.header-contact .heading {
+	color: #f1f1f1;
+}
+
 .page-container {
 	box-sizing: content-box;
 }
@@ -102,6 +124,14 @@ a:visited {
 
 .link-image:hover .link-image__text {
 	text-decoration: underline;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.gap-bottom {
+	margin-bottom: 20px;
 }
 
 .footer {
