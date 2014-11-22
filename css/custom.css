@@ -134,6 +134,23 @@ a:visited {
 	margin-bottom: 20px;
 }
 
+.gap-top {
+	margin-top: 20px;
+}
+
+.gap-right {
+	margin-right: 20px;
+}
+
 .footer {
 	font-size: 10px;
+}
+
+.smaller {
+	font-size: 12px;
+	line-height: 1.2;
+}
+
+.float-left {
+	float: left;
 }
