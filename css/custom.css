@@ -154,3 +154,7 @@ a:visited {
 .float-left {
 	float: left;
 }
+
+.shift-left {
+	margin-left: -16px;
+}
