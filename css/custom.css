@@ -9,6 +9,10 @@ p {
 	color: #666666;
 }
 
+#main_column p {
+	line-height: 1.15;
+}
+
 a:link {
 	color: #004F85;
 }
