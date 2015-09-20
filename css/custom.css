@@ -9,6 +9,12 @@ p {
 	color: #666666;
 }
 
+h2 {
+	color: #FA8C14;
+	font-size: 15pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 #main_column p {
 	line-height: 1.15;
 }
@@ -174,4 +180,21 @@ a:visited {
 
 .shift-left {
 	margin-left: -16px;
+}
+
+.round {
+	border-radius: 8px;
+}
+
+ul.list {
+	float: none;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+}
+
+ul.list li {
+	display: block;
+	font-weight: normal;
+	padding: 5px 5px 5px 15px;
 }
