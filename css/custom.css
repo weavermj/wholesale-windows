@@ -182,10 +182,6 @@ a:visited {
 	margin-left: -16px;
 }
 
-.round {
-	border-radius: 8px;
-}
-
 ul.list {
 	float: none;
 	width: auto;
@@ -197,4 +193,8 @@ ul.list li {
 	display: block;
 	font-weight: normal;
 	padding: 5px 5px 5px 15px;
+}
+
+img.round {
+	border-radius: 8px;
 }
