@@ -90,13 +90,14 @@ $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $mail->Port       = 25;                    // set the SMTP port for the GMAIL server
 $mail->Username   = "noreply@wholesale-windows.co.uk"; // SMTP account username
-$mail->Password   = "C2Drd/D4G";        // SMTP account password
+$mail->Password   = "XXXXXXX";        // SMTP account password
 $mail->SetFrom('noreply@wholesale-windows.co.uk', 'Wholesale Windows Website', false);
 $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Brochure Enquiry";
 // $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->AddAddress("donna@wholesale-windows.co.uk");
-$mail->AddBCC("weavermjw@googlemail.com");
+$mail->AddCC("kate@wholesale-windows.co.uk");
+#$mail->AddBCC("weavermjw@googlemail.com");
 $mail->Body     = $msg;
 $mail->msgHTML($msg);
 $mail->WordWrap = 50;
@@ -123,7 +124,7 @@ $customer_mail->SMTPAuth   = true;                  // enable SMTP authenticatio
 $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $customer_mail->Port       = 25;                    // set the SMTP port for the GMAIL server
 $customer_mail->Username   = "noreply@wholesale-windows.co.uk"; // SMTP account username
-$customer_mail->Password   = "C2Drd/D4G";        // SMTP account password
+$customer_mail->Password   = "XXXXXXX";        // SMTP account password
 $customer_mail->SetFrom('sales@wholesale-windows.co.uk', 'Wholesale Windows');
 $customer_mail->Subject    = "Brochure Request";
 $customer_mail->AddAddress($contact_email);
