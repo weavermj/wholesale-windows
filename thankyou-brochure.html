@@ -1,0 +1,53 @@
+<?php
+
+$title = 'Thank you for requesting our brochures';
+$description = 'Thank you for your request. Your brochures will be with you shortly.';
+$keywords = 'brochure, brochures, thanks';
+
+$conversion = '<!-- Google Code for Brochure Request form Conversion Page -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 983712782;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "5BnaCNqS_WQQjoiJ1QM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/983712782/?label=5BnaCNqS_WQQjoiJ1QM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>';
+
+include('./_partials/head.html');
+include('./_partials/layout_start.html');
+?>
+
+
+<!-- Main Column -->
+<div class="small-9 columns" id="main_column">
+    <h1 class="heading">Thank you</h1>
+    <p>Thanks for your request, your brochures will be with you shortly.</p>
+</div>
+
+
+<!-- Right hand column -->
+<div class="small-3 columns">
+    <?php include('./_partials/right_hand_links.html');?>
+    <a class="link-image" href="folding.html">
+        <img src="img/bi-fold.jpg" width="195" height="190" alt="Bi-Folding Doors" />
+        <span class="link-image__text">Bi-folding Doors</span>
+    </a>
+
+    <a class="link-image" href="garage.html">
+        <img src="img/garage-door.jpg" width="195" height="166" alt="Garage doors">
+        <span class="link-image__text">Roller Garage Doors</span>
+    </a>
+
+</div>
+
+<?php include('./_partials/layout_end.html'); ?>
