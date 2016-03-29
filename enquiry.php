@@ -63,7 +63,8 @@ $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Website Enquiry";
 // $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->AddAddress("donna@wholesale-windows.co.uk");
-$mail->AddBCC("weavermjw@googlemail.com");
+$mail->AddCC("kate@wholesale-windows.co.uk");
+#$mail->AddBCC("weavermjw@googlemail.com");
 $mail->Body     = $msg;
 $mail->msgHTML($msg);
 $mail->WordWrap = 50;
