@@ -57,13 +57,12 @@ $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $mail->Port       = 25;                    // set the SMTP port for the GMAIL server
 $mail->Username   = "noreply@wholesale-windows.co.uk"; // SMTP account username
-$mail->Password   = "C2Drd/D4G";        // SMTP account password no-commit
+$mail->Password   = "C2Drd/D4G";        // SMTP account password
 $mail->SetFrom('noreply@wholesale-windows.co.uk', 'Wholesale Windows Website', false);
 $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Website Enquiry";
 // $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->AddAddress("donna@wholesale-windows.co.uk");
-$mail->AddCC("kate@wholesale-windows.co.uk");
 $mail->AddBCC("weavermjw@googlemail.com");
 $mail->Body     = $msg;
 $mail->msgHTML($msg);
@@ -83,12 +82,12 @@ $customer_mail = new PHPMailer();
 
 $customer_mail->IsSMTP(); // telling the class to use SMTP
 $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // SMTP server
-$customer_mail->SMTPDebug  = 0;
+$customer_mail->SMTPDebug  = 0; 
 $customer_mail->SMTPAuth   = true;                  // enable SMTP authentication
 $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $customer_mail->Port       = 25;                    // set the SMTP port for the GMAIL server
 $customer_mail->Username   = "noreply@wholesale-windows.co.uk"; // SMTP account username
-$customer_mail->Password   = "C2Drd/D4G";        // SMTP account password no-commit
+$customer_mail->Password   = "C2Drd/D4G";        // SMTP account password
 $customer_mail->SetFrom('sales@wholesale-windows.co.uk', 'Wholesale Windows');
 $customer_mail->Subject    = "Website Enquiry";
 $customer_mail->AddAddress($contact_email);
@@ -100,3 +99,4 @@ $customer_mail->Send();
 
 header( 'Location: thankyou.html' ) ;
 ?>
+

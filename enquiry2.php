@@ -96,7 +96,6 @@ $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Brochure Enquiry";
 // $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->AddAddress("donna@wholesale-windows.co.uk");
-$mail->AddAddress("kate@wholesale-windows.co.uk");
 $mail->AddBCC("weavermjw@googlemail.com");
 $mail->Body     = $msg;
 $mail->msgHTML($msg);
@@ -119,7 +118,7 @@ $customer_mail = new PHPMailer();
 
 $customer_mail->IsSMTP(); // telling the class to use SMTP
 $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // SMTP server
-$customer_mail->SMTPDebug  = 0;
+$customer_mail->SMTPDebug  = 0; 
 $customer_mail->SMTPAuth   = true;                  // enable SMTP authentication
 $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $customer_mail->Port       = 25;                    // set the SMTP port for the GMAIL server
@@ -136,3 +135,4 @@ $customer_mail->Send();
 
 header( 'Location: thankyou.html' ) ;
 ?>
+
