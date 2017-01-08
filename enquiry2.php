@@ -1,5 +1,6 @@
 <?php
 
+include("./_credentials/smtp.php");
 require("class.phpmailer.php");
 
 $contact_title = $_POST['contact_title'];
@@ -89,8 +90,8 @@ $mail->SMTPDebug  = 1;                     // enables SMTP debug information (fo
 $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $mail->Port       = 25;                    // set the SMTP port for the GMAIL server
-$mail->Username   = "noreply@wholesale-windows.co.uk"; // SMTP account username
-$mail->Password   = "XXXXXXX";        // SMTP account password
+$mail->Username   = $smtp_user; 	   // SMTP account username
+$mail->Password   = $smtp_password;        // SMTP account password
 $mail->SetFrom('noreply@wholesale-windows.co.uk', 'Wholesale Windows Website', false);
 $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Brochure Enquiry";
@@ -124,8 +125,8 @@ $customer_mail->SMTPDebug  = 0;
 $customer_mail->SMTPAuth   = true;                  // enable SMTP authentication
 $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP server
 $customer_mail->Port       = 25;                    // set the SMTP port for the GMAIL server
-$customer_mail->Username   = "noreply@wholesale-windows.co.uk"; // SMTP account username
-$customer_mail->Password   = "XXXXXXX";        // SMTP account password
+$customer_mail->Username   = $smtp_user; // SMTP account username
+$customer_mail->Password   = $smtp_password;        // SMTP account password
 $customer_mail->SetFrom('sales@wholesale-windows.co.uk', 'Wholesale Windows');
 $customer_mail->Subject    = "Brochure Request";
 $customer_mail->AddAddress($contact_email);
