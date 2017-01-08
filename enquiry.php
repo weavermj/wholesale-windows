@@ -98,6 +98,6 @@ $customer_mail->WordWrap = 50;
 
 $customer_mail->Send();
 
-header( 'Location: thankyou.html' ) ;
+header( 'Location: thankyou-contact.html' ) ;
 ?>
 

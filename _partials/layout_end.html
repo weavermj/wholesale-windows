@@ -2,5 +2,10 @@
             </div>
             <?php include('./_partials/footer.html'); ?>
         </div>
+        <?php
+        if (isset($conversion)) {
+            echo $conversion;
+        }
+        ?>
     </body>
 </html>
