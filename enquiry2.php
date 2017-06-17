@@ -97,8 +97,8 @@ $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Brochure Enquiry";
 // $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->AddAddress("donna@wholesale-windows.co.uk");
-$mail->AddCC("kate@wholesale-windows.co.uk");
-$mail->AddCC("kerry@wholesale-windows.co.uk");
+$mail->AddCC("michaela@wholesale-windows.co.uk");
+$mail->AddCC("enquiries@wholesale-window.co.uk");
 #$mail->AddBCC("weavermjw@googlemail.com");
 $mail->Body     = $msg;
 $mail->msgHTML($msg);
@@ -127,7 +127,7 @@ $customer_mail->Host       = "mail.wholesale-windows.co.uk"; // sets the SMTP se
 $customer_mail->Port       = 25;                    // set the SMTP port for the GMAIL server
 $customer_mail->Username   = $smtp_user; // SMTP account username
 $customer_mail->Password   = $smtp_password;        // SMTP account password
-$customer_mail->SetFrom('sales@wholesale-windows.co.uk', 'Wholesale Windows');
+$customer_mail->SetFrom('enquiries@wholesale-window.co.ukk', 'Wholesale Windows');
 $customer_mail->Subject    = "Brochure Request";
 $customer_mail->AddAddress($contact_email);
 $customer_mail->Body     = $customer_msg;
