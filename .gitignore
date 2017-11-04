@@ -2,3 +2,4 @@
 .sub*
 node_modules
 _credentials
+.idea
