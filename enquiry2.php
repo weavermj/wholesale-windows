@@ -100,7 +100,6 @@ $mail->AddAddress("donna@wholesale-windows.co.uk");
 $mail->AddCC("sales@wholesale-windows.co.uk");
 $mail->AddCC("mike@wholesale-windows.co.uk");
 $mail->AddCC("cheyenne@wholesale-windows.co.uk");
-$mail->AddCC("michaela@wholesale-windows.co.uk");
 $mail->AddCC("enquiries@wholesale-window.co.uk");
 #$mail->AddBCC("weavermjw@googlemail.com");
 $mail->Body     = $msg;
