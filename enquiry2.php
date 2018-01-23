@@ -97,6 +97,9 @@ $mail->AddReplyTo($contact_email, $customer_fullname);
 $mail->Subject    = "Brochure Enquiry";
 // $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
 $mail->AddAddress("donna@wholesale-windows.co.uk");
+$mail->AddCC("sales@wholesale-windows.co.uk");
+$mail->AddCC("mike@wholesale-windows.co.uk");
+$mail->AddCC("cheyenne@wholesale-windows.co.uk");
 $mail->AddCC("michaela@wholesale-windows.co.uk");
 $mail->AddCC("enquiries@wholesale-window.co.uk");
 #$mail->AddBCC("weavermjw@googlemail.com");
